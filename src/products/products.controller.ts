@@ -30,7 +30,7 @@ export class ProductsController {
   }
 
   // @Patch(':id')
-  @MessagePattern({ cmd: 'update_product' })
+  @MessagePattern({ cmd: 'update_product' })  
   update(
     // @Param('id', ParseIntPipe) id: number, 
     // @Body() updateProductDto: UpdateProductDto,
